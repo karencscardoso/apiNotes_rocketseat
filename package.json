@@ -5,16 +5,20 @@
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
-    "migrate": "knex migrate:latest" 
+    "migrate": "knex migrate:latest"
   },
   "author": "Karen Cardoso",
   "license": "ISC",
   "description": "API desenvolvida no programa Explorer da Rocketseat",
   "dependencies": {
+    "axios": "^1.7.9",
     "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
     "express": "^4.21.1",
     "express-async-errors": "^3.1.1",
+    "jsonwebtoken": "^9.0.2",
     "knex": "^3.1.0",
+    "multer": "^1.4.5-lts.1",
     "sqlite": "^5.1.1",
     "sqlite3": "^5.1.7"
   },
